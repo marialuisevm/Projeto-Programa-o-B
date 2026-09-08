@@ -9,7 +9,7 @@ Defini três tabelas principais para suportar a regra de negócio essencial:
 ---
 
 ### 2. Você utilizou migrations? Se sim, quantas migrations? Descreva em uma frase o que cada uma faz.
-Sim, utilizamos apenas 1 migration inicial (`database/migrations/001_initial_tables.py`):
+Sim, utilizei apenas 1 migration inicial (`database/migrations/001_initial_tables.py`):
 * **Migration 1 (`001_initial_tables.py`)**: Cria toda a estrutura relacional inicial contendo as tabelas `users`, `habits` e `habit_logs` com suas respectivas chaves estrangeiras e restrições.
 
 ---
