@@ -9,10 +9,8 @@ Defini três tabelas principais para suportar a regra de negócio essencial:
 ---
 
 ### 2. Você utilizou migrations? Se sim, quantas migrations? Descreva em uma frase o que cada uma faz.
-Sim, utilizei o Alembic para gerenciar 3 migrations:
-* **Migration 1 (`001_create_users_table`)**: Cria a tabela de usuários com os campos de identificação, credenciais e timestamps.
-* **Migration 2 (`002_create_habits_table`)**: Cria a tabela de hábitos com relacionamento (chave estrangeira) para a tabela de usuários.
-* **Migration 3 (`003_create_habit_logs_table`)**: Cria a tabela de registros diários vinculada aos hábitos para controle de frequência e conclusões.
+Sim, utilizamos apenas 1 migration inicial (`database/migrations/001_initial_tables.py`):
+* **Migration 1 (`001_initial_tables.py`)**: Cria toda a estrutura relacional inicial contendo as tabelas `users`, `habits` e `habit_logs` com suas respectivas chaves estrangeiras e restrições.
 
 ---
 
